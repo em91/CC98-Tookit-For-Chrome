@@ -1,0 +1,101 @@
+#container > ul{
+	padding : 0;
+	margin : 0;
+	/*border : 1px solid #6595D6;*/
+}
+
+#container > ul > li{
+	display : block;
+	padding : 5px 5px;
+	/*border-radius : 6px;*/
+	line-height : 14px;
+	/*margin : 5px 0;*/
+	border-bottom:1px dashed #ccc;
+}
+
+#container > ul > li:nth-child(even){
+	background : #E4E8EF;
+}
+
+#container > ul > li:nth-child(odd){
+	/*background : #efefef;*/
+}
+
+#container > ul > li > h3{
+	font-size : 13px;
+	padding : 0;
+	margin : 0;
+	line-height : 18px;
+}
+
+#container > ul > li > h3 > img{
+	margin-right : 2px;
+	vertical-align : middle
+}
+
+#container > ul > li > h3 a{
+	text-decoration : none;
+	color : #006;
+}
+
+#container > ul > li > div.content{
+	padding : 10px 5px;
+	font-size : 12px !important;
+	min-height : 20px;
+}
+
+#container > ul > li > div.meta{
+	margin-top : 5px;
+	text-align : right;
+	color : grey;
+	font-size : 8px;
+}
+
+#container > ul > li > div.meta a{
+	color : grey !important;
+	margin-left : 5px;
+	text-decoration : none;
+}
+
+#container > ul > li > div.meta a.del:hover{
+	color : red !important
+}
+
+#container #pager a,#container #pager span{
+	margin : 0 5px;
+	text-decoration: none;
+	color : #333;
+}
+
+#container #pager span{
+	color : red;
+}
+
+form{
+	position : absolute;
+	right : 10px;
+	top : 12px;
+}
+
+form input[type=text]{
+	line-height : 24px;
+	padding:5px;
+	-webkit-border-radius : 5px;
+	border: 1px dashed #ccc;
+	width : 200px;
+}
+
+header{
+	height : 60px;
+}
+
+header > div{
+	position:absolute;
+	left : 500px;
+	top : 20px;
+	line-height : 20px;
+	display: none;
+}
+header > div > a{
+	display : block;
+}

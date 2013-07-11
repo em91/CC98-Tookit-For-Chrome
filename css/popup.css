@@ -1,0 +1,75 @@
+body{
+	width : 440px;
+	height : 300px;
+	margin : 0;
+	padding : 0;
+	border-radius:8px;
+}
+
+ul{
+	padding : 0;
+	margin : 0;
+}
+
+ul > li{
+	display : block;
+	padding : 5px;
+	line-height : 14px;
+}
+
+ul > li:nth-child(even){
+	background : #E4E8EF;
+}
+
+ul > li:nth-child(odd){
+}
+
+ul > li > h3{
+	font-size : 14px;
+	padding : 0;
+	margin : 0;
+	line-height : 18px;
+}
+
+ul > li > h3 > img{
+	margin-right : 2px;
+	vertical-align : middle
+}
+
+ul > li > h3 a{
+	text-decoration : none;
+	color : #006;
+}
+
+ul > li > div.content{
+	padding : 10px 0;
+	font-size : 12px !important;
+}
+
+ul > li > div.meta{
+	margin-top : 5px;
+	text-align : right;
+	color : grey;
+	font-size : 8px;
+}
+
+ul > li > div.meta a{
+	color : grey !important;
+	margin-left : 5px;
+	text-decoration : none;
+}
+
+ul > li > div.meta a.del:hover{
+	color : red !important
+}
+
+#viewAll{
+	position : absolute;
+	right : 5px;
+	top : 5px;
+	background : #fff;
+	display : block;
+	color : red;
+	font-size : 12px;
+	text-decoration : none
+}
