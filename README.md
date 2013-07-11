@@ -5,3 +5,5 @@ CC98 Toolkit for Chrome 是为Google Chrome浏览器打造的cc98工具箱，主
 * 黑名单设置，屏蔽回复
 
 本项目由@em91业余维护，欢迎广大98er一起参与开发 :-)
+
+*Update: 本项目暂停维护。*
